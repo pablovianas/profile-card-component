@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-color: var(--background-color);
+    background-position: left -430px, right -119px bottom -327px;
+    background-size: contain;
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+hr{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    width: 330px;
+    height: 350px;
+}
+
+.card-top{
+    background-image: url(../images/bg-pattern-card.svg);
+    height: 30%;
+    width: 100%;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card-top img{
+    border-radius: 50%;
+    position: absolute;
+    left: 35%;
+    top: 55%;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 5px;
+}
+
+.card-profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.card-info .age,
+.card-info .city, 
+.profile-informations .followers, 
+.profile-informations .likes,
+.profile-informations .photos {
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+
